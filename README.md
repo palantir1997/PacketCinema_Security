@@ -6,6 +6,8 @@
 
 Packet Cinema 웹사이트의 취약점을 패치하고, **ModSecurity + Suricata + pfSense**를 이용한 다층 방어 시스템 구축
 
+[![Packet Cinema - 모의 해킹 및 방어 테스트](https://img.youtube.com/vi/oH_uLIhvd5Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=oH_uLIhvd5Q)
+
 ## 🛡️ 구현 기능
 
 ### 기존 취약점 패치
