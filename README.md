@@ -47,8 +47,10 @@ Splunk를 통한 실시간 보안 이벤트 모니터링 및 분석
 <img width="1280" height="720" alt="슬라이드4" src="https://github.com/user-attachments/assets/6a1a8157-270f-4640-9a84-50b8eb6b5355" />
 <img width="1280" height="720" alt="슬라이드5" src="https://github.com/user-attachments/assets/3b74a15e-d5ec-4d28-91e3-f4ebf8058d0e" />
 <img width="1280" height="720" alt="슬라이드6" src="https://github.com/user-attachments/assets/28a725ff-f0d5-4691-88b4-9b1fe5687e58" />
-<img width="1280" height="720" alt="슬라이드7" src="https://github.com/user-attachments/assets/4997fb9a-9cd9-4600-b5ff-9a4c347f4317" />
-<img width="1280" height="720" alt="슬라이드8" src="https://github.com/user-attachments/assets/868defac-1380-4fe6-9a21-3899374b73ef" />
+<img width="1280" height="720" alt="슬라이드7" src="https://github.com/user-attachments/assets/748c05a9-5760-4a74-8a43-ce0d60a496b1" />
+<img width="1280" height="720" alt="슬라이드8" src="https://github.com/user-attachments/assets/e891f76c-086e-47be-be5a-838eca01465b" />
+
+
 
 ## 📁 구조
 
