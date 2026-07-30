@@ -6,8 +6,6 @@
 
 Packet Cinema 웹사이트의 취약점을 패치하고, **ModSecurity + Suricata + pfSense**를 이용한 다층 방어 시스템 구축
 
-[![[가상 영화관 웹 취약점 진단] OWASP Top 10 (SQL Injection, Brute Force, Path Traversal) 모의 해킹 및 방어 테스트](https://img.youtube.com/vi/VvKSCRkPEwg/maxresdefault.jpg)](https://www.youtube.com/watch?v=VvKSCRkPEwg)
-
 ## 🛡️ 구현 기능
 
 ### 기존 취약점 패치
