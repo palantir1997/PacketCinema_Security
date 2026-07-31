@@ -91,16 +91,6 @@ Packet Cinema/
 4. **IPS Detection** - Suricata 시그니처 탐지
 5. **Network Filtering** - pfSense 정책 적용
 
-## 📸 결과 화면
-
-- ModSecurity 차단 로그
-- Suricata 탐지 알림
-- Splunk 대시보드
-
-## 👥 팀
-
-[팀원 정보]
-
 ## 📝 라이선스
 
 MIT
