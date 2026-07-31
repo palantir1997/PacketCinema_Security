@@ -75,6 +75,9 @@ Packet Cinema/
 
 ## ✅ 검증 결과
 
+<img width="1536" height="1024" alt="Firefly" src="https://github.com/user-attachments/assets/23c727de-3ec9-4b69-856b-11bf98ea929c" />
+
+
 - ✅ SQL Injection 공격 100% 차단
 - ✅ Brute Force 공격 100% 차단
 - ✅ Path Traversal 공격 100% 차단
