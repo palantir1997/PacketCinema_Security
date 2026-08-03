@@ -29,6 +29,10 @@ Packet Cinema 웹사이트의 취약점을 패치하고, **ModSecurity + Suricat
 - **Suricata**: IDS (침입 탐지 시스템)
 - **pfSense**: 네트워크 방화벽
 
+
+<img width="1735" height="950" alt="스크린샷 2026-08-03 170619" src="https://github.com/user-attachments/assets/d7f57af5-eed0-479b-9991-b90621fd0897" />
+<img width="1744" height="982" alt="스크린샷 2026-08-03 170625" src="https://github.com/user-attachments/assets/2de145ee-ea15-452f-b673-51b31612baba" />
+
 ### 공격 테스트 & 차단 검증
 
 | 공격 유형 | OWASP | 결과 |
@@ -76,6 +80,9 @@ Packet Cinema/
 ## ✅ 검증 결과
 
 <img width="1536" height="1024" alt="Firefly" src="https://github.com/user-attachments/assets/23c727de-3ec9-4b69-856b-11bf98ea929c" />
+
+
+<img width="1718" height="946" alt="스크린샷 2026-08-03 170548" src="https://github.com/user-attachments/assets/08bc0c66-6cb9-42dd-b946-d71c4d2b6fe8" />
 
 
 - ✅ SQL Injection 공격 100% 차단
