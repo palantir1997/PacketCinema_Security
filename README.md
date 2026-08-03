@@ -16,7 +16,8 @@ Packet Cinema 웹사이트의 취약점을 패치하고, **ModSecurity + Suricat
 
 ## 🛡️ 현재 구축 환경
 
-<img width="1536" height="1024" alt="구축환경" src="https://github.com/user-attachments/assets/51480634-b481-4a62-8083-264990ebdda2" />
+<img width="1737" height="979" alt="스크린샷 2026-08-03 170937" src="https://github.com/user-attachments/assets/0d1935b1-0795-49a2-90c4-2b523488fc7c" />
+
 
 ## 🛡️ 구현 기능
 
@@ -101,3 +102,6 @@ Packet Cinema/
 ## 📝 라이선스
 
 MIT
+
+## 작성자
+palantir1997@gmail.com
