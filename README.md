@@ -42,6 +42,8 @@ Packet Cinema 웹사이트의 취약점을 패치하고, **ModSecurity + Suricat
 | **Brute Force** | A07:2021 | ✅ 차단됨 |
 | **Path Traversal** | A01:2021 | ✅ 차단됨 |
 
+### 영상 참조
+
 ## 📊 모니터링
 
 Splunk를 통한 실시간 보안 이벤트 모니터링 및 분석
