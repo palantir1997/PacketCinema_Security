@@ -8,7 +8,8 @@ Packet Cinema 웹사이트의 취약점을 패치하고, **ModSecurity + Suricat
 
 [![Packet Cinema - 모의 해킹 및 방어 테스트](https://img.youtube.com/vi/oH_uLIhvd5Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=oH_uLIhvd5Q)
 
-<img width="1280" height="720" alt="슬라이드9" src="https://github.com/user-attachments/assets/f2a9ea67-0f77-4175-95b5-c42efc105baf" />
+<img width="1326" height="738" alt="스크린샷 2026-08-04 170409" src="https://github.com/user-attachments/assets/ba407993-01e1-444a-8525-2e991ef3751c" />
+
 
 ### 기술스택/환경구성
 <img width="1326" height="742" alt="스크린샷 2026-08-04 152935" src="https://github.com/user-attachments/assets/424878f6-68ea-48f6-b425-b0a9c7aa861d" />
