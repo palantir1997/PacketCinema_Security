@@ -92,11 +92,10 @@ volumes:
 ```php
 <?php
 session_start();
-$DB_HOST = 'db';        // Docker 서비스명 (localhost 아님!)
+$DB_HOST = 'db';
 $DB_NAME = 'packitcinema';
 $DB_USER = 'cinemauser';
 $DB_PASS = 'cinema123!';
-
 try {
     $pdo = new PDO("mysql:host={$DB_HOST};dbname={$DB_NAME};charset=utf8mb4", $DB_USER, $DB_PASS, [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
@@ -105,6 +104,49 @@ try {
 } catch (PDOException $e) {
     die('DB 연결 실패: ' . htmlspecialchars($e->getMessage()));
 }
+function e($value) {
+    return htmlspecialchars((string)$value, ENT_QUOTES, 'UTF-8');
+}
+function is_login() {
+    return isset($_SESSION['user']);
+}
+function is_admin() {
+    return isset($_SESSION['user']) && (int)$_SESSION['user']['is_admin'] === 1;
+}
+function require_login() {
+    if (!is_login()) {
+        header('Location: login.php');
+        exit;
+    }
+}
+function require_admin() {
+    require_login();
+    if (!is_admin()) {
+        security_log('ADMIN_DENIED', '관리자 페이지 접근 차단');
+        http_response_code(403);
+        die('관리자만 접근할 수 있습니다.');
+    }
+}
+function client_ip() {
+    return $_SERVER['REMOTE_ADDR'] ?? 'unknown';
+}
+function security_log($event, $message = '') {
+    $dir = __DIR__ . '/logs';
+    if (!is_dir($dir)) mkdir($dir, 0775, true);
+    $line = sprintf("[%s] ip=%s user=%s event=%s msg=%s\n",
+        date('Y-m-d H:i:s'),
+        client_ip(),
+        $_SESSION['user']['username'] ?? '-',
+        $event,
+        str_replace(["\r", "\n"], ' ', $message)
+    );
+    file_put_contents($dir . '/security.log', $line, FILE_APPEND);
+    error_log("PACKITCINEMA {$event} {$message}");
+}
+function current_user_id() {
+    return $_SESSION['user']['id'] ?? null;
+}
+
 ```
 
 ## 4. 컨테이너 실행
