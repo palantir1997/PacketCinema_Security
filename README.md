@@ -104,6 +104,23 @@ Packet Cinema/
 4. **IPS Detection** - Suricata 시그니처 탐지
 5. **Network Filtering** - pfSense 정책 적용
 
+## 사이트 화면 구성
+
+<img width="1902" height="944" alt="스크린샷 2026-08-04 172118" src="https://github.com/user-attachments/assets/b2851f8d-fef6-4899-92d8-1f99f5b3eacc" />
+
+<img width="1903" height="931" alt="스크린샷 2026-08-04 172130" src="https://github.com/user-attachments/assets/2670e03e-06db-483a-b6e7-9742dbd14b48" />
+
+<img width="1914" height="938" alt="스크린샷 2026-08-04 172148" src="https://github.com/user-attachments/assets/6d256e20-71ae-44bd-abfa-12d0a8522cc2" />
+
+<img width="1906" height="938" alt="스크린샷 2026-08-04 172156" src="https://github.com/user-attachments/assets/525b3f61-6024-41f3-be50-3b511eb7aacf" />
+
+<img width="1907" height="932" alt="스크린샷 2026-08-04 172204" src="https://github.com/user-attachments/assets/afae949f-fded-40da-989c-26052bdda2f8" />
+
+<img width="1907" height="935" alt="스크린샷 2026-08-04 172211" src="https://github.com/user-attachments/assets/8534be3c-9066-4124-814e-cfca91d445df" />
+
+<img width="1905" height="939" alt="스크린샷 2026-08-04 172219" src="https://github.com/user-attachments/assets/a05dbafe-899b-4b34-8dbe-1aaa004c32c1" />
+
+
 ## 📝 라이선스
 
 MIT
