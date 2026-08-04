@@ -104,6 +104,8 @@ Packet Cinema/
 4. **IPS Detection** - Suricata 시그니처 탐지
 5. **Network Filtering** - pfSense 정책 적용
 
+---
+
 ## 사이트 화면 구성
 
 <img width="1902" height="944" alt="스크린샷 2026-08-04 172118" src="https://github.com/user-attachments/assets/b2851f8d-fef6-4899-92d8-1f99f5b3eacc" />
