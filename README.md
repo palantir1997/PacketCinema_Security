@@ -129,3 +129,42 @@ MIT
 
 ## 작성자
 palantir1997@gmail.com
+
+## 작성자 역할
+
+### 프로젝트 관리
+
+- 프로젝트 기획 및 WBS 작성
+- 일정 관리 및 역할 분담
+- 시스템 아키텍처 설계
+- 발표 및 기술 문서 작성
+
+### 보안 시스템 구축
+
+- **ModSecurity(WAF)** 구축 및 OWASP CRS 적용
+- SQL Injection, XSS, Path Traversal, Command Injection 차단 규칙 구현
+- **Suricata IDS** 구축 및 탐지 규칙 작성
+- **pfSense** 방화벽 정책 구성
+- **Splunk** 로그 수집 및 실시간 모니터링 대시보드 구축
+
+### 웹 보안 강화
+
+- SQL Injection 방어 (Prepared Statement)
+- 입력값 검증 및 출력 인코딩
+- 세션 보안 강화
+- OWASP Top 10 취약점 개선
+
+### 자동화
+
+- Bash Shell Script 개발
+- 로그 분석 및 일일 리포트 자동 생성
+- Suricata 규칙 자동 업데이트
+- 악성 IP 자동 차단
+
+### 공격 테스트
+
+- SQL Injection
+- XSS
+- Path Traversal
+- Brute Force
+- 공격 탐지 및 차단 검증
